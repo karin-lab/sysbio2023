@@ -4,129 +4,110 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Systems Biology Course</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-		}
-
-		header {
-			background-color: #0072c6;
-			color: #fff;
-			padding: 20px;
-			text-align: center;
-		}
-
-		h1 {
-			margin-top: 0;
-		}
-
-		nav {
-			background-color: #eee;
-			padding: 10px;
-		}
-
-		nav ul {
-			list-style: none;
-			margin: 0;
-			padding: 0;
-		}
-
-		nav li {
-			display: inline-block;
-			margin-right: 10px;
-		}
-
-		nav a {
-			color: #0072c6;
-			text-decoration: none;
-			padding: 5px;
-		}
-
-		nav a:hover {
-			background-color: #0072c6;
-			color: #fff;
-		}
-
-		main {
-			margin: 20px;
-		}
-
-		h2 {
-			margin-top: 0;
-		}
-
-		section {
-			margin-bottom: 20px;
-		}
-
-		footer {
-			background-color: #0072c6;
-			color: #fff;
-			padding: 10px;
-			text-align: center;
-		}
-
-		footer p {
-			margin: 0;
-		}
-	</style>
+  <style>
+      body {
+          margin: 0;
+          padding: 0;
+          font-family: sans-serif;
+          font-size: 16px;
+          background-color: white;
+          color: black;
+      }
+      header {
+          background-color: black;
+          color: white;
+          text-align: center;
+          padding: 20px;
+      }
+      main {
+          max-width: 800px;
+          margin: 0 auto;
+          padding: 20px;
+      }
+      section {
+          border: 1px solid #ccc;
+          padding: 10px;
+          margin-bottom: 20px;
+      }
+      h2 {
+          border-bottom: 1px solid #ccc;
+          padding-bottom: 5px;
+      }
+      h3 {
+          margin-top: 20px;
+      }
+      a {
+          color: black;
+          text-decoration: none;
+          border-bottom: 2px solid black;
+          transition: all 0.2s;
+      }
+      a:hover {
+          background-color: black;
+          color: white;
+      }
+  </style>
 </head>
 <body>
-	<header>
-  <h1>Systems Biology (TCC Course)</h1>
-    <h2>Course Syllabus</h2>
-    <p>
-      In this course, we will provide an overview of the systems biology approach to modeling biological systems. Our goal would be to understand how interactions between biological components such as genes, proteins, and cells, give rise to the functional properties of biological systems. We will cover topics ranging from simple genetic circuits (providing mechanisms for bistability, ultrasensitivity, and oscillations) to higher-level emergent properties that arise from the interactions of many molecules and cells. The course does not assume any background in biology and will be largely self-contained.
-    </p>
-    <p>
-      The list of subjects covered in this course includes:
-    </p>
-	</header>
-	<nav>
-		<ul>
-			<li><a href="#week1">Week 1</a></li>
-			<li><a href="#week2">Week 2</a></li>
-			<li><a href="#week3">Week 3</a></li>
-			<li><a href="#week4">Week 4</a></li>
-			<li><a href="#week5">Week 5</a></li>
-			<li><a href="#week6">Week 6</a></li>
-			<li><a href="#week7">Week 7</a></li>
-			<li><a href="#week8">Week 8</a></li>
-		</ul>
-	</nav>
+  <header>
+         <h1>Systems Biology (TCC Course)</h1>
+         <h2>Summer Term, 2023, Omer Karin</h2>
+     </header>
 
-	<main>
+  <main>
+    <h2>Course details</h2>
+<p>The instructor for this course is <a href="https://www.imperial.ac.uk/people/o.karin">Omer Karin</a>. The course will be held from 10:00 to 12:00 on Wednesdays, with the exception of May 3rd. It is held as part of the <a href="http://www.maths.ox.ac.uk/groups/tcc">Taught Course Center (TCC)</a> and is aimed at PhD students from  Univs. of Bristol, Imperial, Oxford and Warwick. If you are interested in signing up for the course, please contact the TCC at <a href="mailto:tcc@maths.ox.ac.uk">tcc@maths.ox.ac.uk</a>.</p>
+
+    <p>
+      In this course, we will provide an overview of the systems biology approach to modeling biological systems. Our goal would be to understand how interactions between biological components such as genes, proteins, and cells, give rise to the functional properties of biological systems. We will cover topics ranging from simple genetic circuits to higher-level emergent properties that arise from the interactions of many molecules and cells. The course does not assume any background in biology and will be largely self-contained.
+    </p>
+    <h2>
+      Schedule (tentative):
+    </h2>
 		<section id="week1">
-			<h2>Week 1: Background on cell biology and systems biology</h2>
+			<h3>Week 1 (26/4): Background on cell biology and systems biology</h3>
 			<p>In this week, we will provide a brief overview of molecular cell biology and introduce the systems biology approach to modeling biological systems.</p>
 		</section>
 
 		<section id="week2">
-			<h2>Week 2: Modularity and network motifs</h2>
+			<h3>Week 2 (10/5): Modularity and network motifs</h3>
 			<p>We will explore the issue of modularity in biological regulation. We will also introduce the concept of network motifs and how they are used to understand compelx biological networks. We will analyze the simple motif of negative autoregulation.</p>
 		</section>
 
 		<section id="week3">
-			<h2>Week 3: Feedforward regulation; bistability</h2>
+			<h3>Week 3 (17/5): Feedforward regulation; bistability</h3>
 			<p>We will discuss in detail feedforward regulation, and consider bistability and its role in long-term biological memory.</p>
 		</section>
-    
+
     <section id="week4">
-			<h2>Week 4: Robustness in bacterial chemotaxis; fold-change detection</h2>
-			<p>We introduce the fundamental concepts of robustness and integral feedback by exploring classic work on bacterial navigation.</p>
+			<h3>Week 4 (24/5): Robustness in the glucose-insulin system; dynamical compensation</h3>
+			<p>We introduce the fundamental concept of robustness and explore how it can be used to understand human physiology and disease susceptibility, specifically focusing on the glucose-insulin system.</p>
 		</section>
 
     <section id="week5">
-			<h2>Week 5: Robustness in the glucose-insulin system; dynamical compensation</h2>
-			<p>Here we will explore how the concept of robustness can be used to understand human physiology and disease susceptibility, specifically focusing on the glucose-insulin system.</p>
+			<h3>Week 5 (31/5): Robustness in bacterial chemotaxis; fold-change detection</h3>
+			<p>Here we will study robustness through the lens of classic studies and experiments in bacterial navigation.</p>
 		</section>
-    
-	</main>
 
-	<footer>
-		<p>Copyright © 2023</p>
-	</footer>
+    <section id="week6">
+			<h3>Week 6 (7/6): Chemotaxis and sampling</h3>
+			<p>We will use chemotaxis to explore the relation between genetic circuits and higher-level biological properties, by considering the random-walk behavior of bacteria.</p>
+		</section>
+
+    <section id="week7">
+      <h3>Week 7 (14/6): Cell state as a high-dimensional attractor</h3>
+      <p>We will consider how the concept of high-dimensional attractors can be used to understand cell-state and cell-fate dynamics. We will present Hopfield networks as toy models for high-dimensional attractors and explore their applicability to biology.</p>
+    </section>
+
+    <section id="week8">
+      <h3>Week 8 (21/6): Self-tuning of long transients in biology</h3>
+      <p>In the final talk we will consider the topic of long-transients in biological systems and how they can be implemented through collective behavior.</p>
+    </section>
+
+    <p>I will be attaching lecture notes, links, etc. after each talk.</p>
+
+
+
+
 </body>
 </html>
